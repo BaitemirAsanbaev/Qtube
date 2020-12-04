@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+nav ul li a{
+    color:rgb(151, 255, 250);
+    text-decoration: none;
+    font-family: 'Jura';
+    font-weight: bold;
+}
+nav ul li{
+    display: inline;
+    padding: 10px 15px;
+    border: 2px solid rgb(151, 255, 250);
+}
+nav ul li:hover{
+    background-color: rgb(151, 255, 250);
+}
+nav ul li:hover>a{
+    color: rgb(165, 62, 185);
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 10px 0px;
+}
+nav{
+    background-color: rgb(165, 62, 185);
+}

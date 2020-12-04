@@ -124,3 +124,13 @@ button{
 a{
     text-decoration: none;
 }
+main video{
+    margin-top: 50px;
+    border-radius: 20px;
+}
+main p{
+    color: rgb(95, 0, 114);
+    font-family: 'Jura';
+    font-size: 20px;
+    max-width: 800px;
+}

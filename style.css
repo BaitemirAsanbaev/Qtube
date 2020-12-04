@@ -111,3 +111,13 @@ label{
     font-size: 24px;
     font-weight: bold;
 }
+button{
+    background-color: rgb(165, 62, 185);
+    color: rgb(151, 255, 250);
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    margin: 10px auto;
+    font-family: 'Jura';
+}

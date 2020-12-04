@@ -72,3 +72,17 @@ main h1{
     display: flex;
     flex-wrap: wrap;
 }
+footer{
+    background-color: rgb(165, 62, 185);
+    height: 50px;
+    padding: 20px;
+    margin-top: 50px;
+}
+footer small{
+    display: block;
+    max-width: 1000px;
+    margin: 0px auto;
+    color: rgb(151, 255, 250);
+    font-family: 'Jura';
+    font-size: 14px;
+}

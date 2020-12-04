@@ -121,3 +121,6 @@ button{
     margin: 10px auto;
     font-family: 'Jura';
 }
+a{
+    text-decoration: none;
+}

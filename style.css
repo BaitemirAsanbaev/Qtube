@@ -134,3 +134,12 @@ main p{
     font-size: 20px;
     max-width: 800px;
 }
+#view-page{
+    display: flex;
+}
+#view-page #new-videos{
+    flex-basis: 20%;
+}
+#view-page #new-videos article{
+    flex-basis: 100%;
+}

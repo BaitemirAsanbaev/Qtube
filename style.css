@@ -42,8 +42,18 @@ main h1{
     color: rgb(95, 0, 114);
     font-family: 'Jura';
 }
-.thumbnail{
+#new-videos .thumbnail{
     background-color: rgb(255, 188, 188);
+    height: 150px;
+    width: 100%;
+}
+#top-videos .thumbnail{
+    background-color: rgb(188, 189, 255);
+    height: 150px;
+    width: 100%;
+}
+#suggested-videos .thumbnail{
+    background-color: rgb(131, 250, 151);
     height: 150px;
     width: 100%;
 }

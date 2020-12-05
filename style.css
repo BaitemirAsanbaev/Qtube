@@ -7,29 +7,47 @@ body{
     margin: 0px;
     background-color: azure;
 }
-nav ul li a{
+nav ul#not-resp li a{
     color:rgb(151, 255, 250);
     text-decoration: none;
     font-family: 'Jura';
     font-weight: bold;
 }
-nav ul li{
+nav ul#not-resp li{
     display: inline;
     padding: 10px 15px;
     border: 2px solid rgb(151, 255, 250);
 }
-nav ul li:hover{
+nav ul#not-resp li:hover{
     background-color: rgb(151, 255, 250);
 }
-nav ul li:hover>a{
+nav ul#not-resp li:hover>a{
     color: rgb(165, 62, 185);
 }
-nav ul{
+nav ul#not-resp{
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
     margin: 0px auto;
     padding: 10px 0px;
+}
+nav ul#resp{
+    display: none;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    list-style: none;
+}
+nav ul#resp li a img{
+    width: 40px;
+    filter: invert(100%);
+}
+#top-icon{
+    transform: scale(.8) translateY(-7px);
+}
+#sub-icon{
+    transform: scale(1.7) translateY(2px);
 }
 nav{
     background-color: rgb(165, 62, 185);
@@ -155,7 +173,10 @@ main p{
     }
 }
 @media screen and (max-width:600px){
-    nav ul li{
+    nav ul#not-resp{
         display: none;
+    }
+    nav ul#resp{
+        display: flex;
     }
 }

@@ -33,6 +33,7 @@ nav ul{
 }
 nav{
     background-color: rgb(165, 62, 185);
+    height: 63px;
 }
 main{
     max-width: 1000px;
@@ -142,4 +143,19 @@ main p{
 }
 #view-page #new-videos article{
     flex-basis: 100%;
+}
+@media screen and (max-width:900px){
+    .main-sect article {
+        flex-basis: calc(50% - 20px);
+    }
+}
+@media screen and (max-width:500px){
+    .main-sect article {
+        flex-basis: calc(100% - 20px);
+    }
+}
+@media screen and (max-width:600px){
+    nav ul li{
+        display: none;
+    }
 }
